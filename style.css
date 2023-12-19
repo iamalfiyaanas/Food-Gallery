@@ -1,0 +1,241 @@
+/* search button ====================== */
+
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 10%;
+    left: -5px;
+    padding: 10px;
+    background: #f6f7f8;
+    color: rgb(9, 9, 9);
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    border-radius: 5px;
+
+  }
+  
+  form.example button:hover {
+    background: #f1f2f3;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #searchbutton{
+    position: relative;
+    left: 175px;
+    width: 500px;
+  }
+
+/* location ======================================== */
+button{
+    position: relative;
+    left: 250px;
+    width: 300px;
+    display: flex;
+    padding: 10px;
+    width: 200px; 
+    height: 40px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: medium; 
+    color: gray; 
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    margin: -10px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    margin: 30px;
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+    font-weight: 800;
+}
+nav ul li a:hover{
+    color: rgb(69, 9, 9);
+    border: 1px solid white;
+    padding: 9px;
+}
+video{
+    width: 100%;
+    height: 500px;
+    margin: -10px;
+    justify-content: center;
+    background-color: rgb(244, 231, 210);
+}
+#b{
+    width: 100%;
+    margin: 4px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 216, 193);
+}
+.row{
+    background-color: rgb(194, 243, 194);
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    width: 500px;
+    height: 300px;
+    margin: 8px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: -70px;
+}
+img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+#a{
+    padding: 10px;
+}
+#c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+#d{
+    height: 30px;
+    width: 20%;
+    margin: px;
+    padding: 2px;
+    display: flex;
+    
+    justify-content: start;
+    align-items: center;
+    font-size: small;
+    background-color: rgb(244, 238, 232);
+}
+#d:hover{
+    border: 1px solid whites;
+}
+#e{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row1{
+    background-color: white;
+    width: 100%;
+    height: 950px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: start;
+}
+.col1{
+    
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    padding: 1px;
+}
+.col1 img{
+    /* left: 300px; */
+    margin-top: 8px;
+    vertical-align: left;
+}
+.col1 img:hover{
+    display: flex;
+    background-color: rgb(187, 237, 156);
+    border-radius: 10px;
+    padding: 10px;
+}
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0; 
+   width: 100%;
+   height: 90px;
+   background-color: rgb(245, 226, 226);
+   color: rgb(14, 13, 13);
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+  }
+  #b1{
+    color: black;
+    margin-left: -120px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  #b2{
+    color: black;
+    margin-left: -120px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  #b3{
+    color: black;
+    margin-left: -120px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  #b4{
+    color: black;
+    margin-left: -120px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  #b5{
+    color: black;
+    margin-left: -120px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  #b6{
+    color: black;
+    margin-left: -120px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  button{
+    background-color: beige;
+    text-decoration: none;
+  }
